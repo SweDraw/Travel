@@ -1,0 +1,21 @@
+:root {
+  --hero-image-color: white;
+}
+
+.hero-img {
+  position: relative;
+
+  &__image {
+    
+  }
+
+  &__text {
+    font-size: calc(var(--font-size) * 1.5);
+    color: var(--hero-image-color);
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
